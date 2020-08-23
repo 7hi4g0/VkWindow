@@ -11,7 +11,7 @@
             "program": "main.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}\\build",
             "environment": [],
             "externalConsole": false,
             "preLaunchTask": "C/C++: cl.exe build active file"

@@ -10,11 +10,11 @@
 				"/EHsc",
 				"/Fe:",
 				"main.exe",
-				"main.cpp",
+				"..\\main.cpp",
 				"user32.lib"
 			],
 			"options": {
-				"cwd": "${workspaceFolder}"
+				"cwd": "${workspaceFolder}\\build"
 			},
 			"problemMatcher": [
 				"$msCompile"
