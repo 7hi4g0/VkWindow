@@ -6,12 +6,17 @@
 			"label": "C/C++: cl.exe build active file",
 			"command": "cl.exe",
 			"args": [
+				"/std:c++latest",
+				"/IC:\\VulkanSDK\\1.2.148.1\\Include",
 				"/Zi",
 				"/EHsc",
 				"/Fe:",
 				"main.exe",
 				"..\\main.cpp",
-				"user32.lib"
+				"/link",
+				"/LIBPATH:C:\\VulkanSDK\\1.2.148.1\\Lib",
+				"user32.lib",
+				"vulkan-1.lib"
 			],
 			"options": {
 				"cwd": "${workspaceFolder}\\build"
